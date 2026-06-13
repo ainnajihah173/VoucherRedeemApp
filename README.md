@@ -30,43 +30,16 @@ VoucherHub is a modern MERN stack application that allows users to exchange loya
 
 ## 📦 Installation & Setup
 
-### 1. Clone the Repository
-```bash
-git clone https://github.com/your-username/voucherhub.git
-cd voucherhub
-```
-
-### 2. Backend Setup
-Navigate to the backend directory and install dependencies:
-```bash
-cd backend
-npm install
-```
-Create a `.env` file in the `backend` folder:
-```env
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_super_secret_key
-```
-Start the backend server:
-```bash
-npm start
-```
-
-### 3. Frontend Setup
-Navigate to the frontend directory and install dependencies:
-```bash
-cd ../frontend
-npm install
-```
-Create a `.env` file in the `frontend` folder:
-```env
-REACT_APP_API_URL=http://localhost:5000/api
-```
-Start the React development server:
-```bash
-npm start
-```
+1. Clone the repository.
+2. Navigate to the backend folder: cd backend.
+3. Install dependencies: npm install.
+4. Create a .env file with PORT, MONGO_URI, and JWT_SECRET.
+5. Seed the database: node seed.js.
+6. Start the server: npm run dev.
+7. Navigate to the frontend folder: cd frontend.
+8. Install dependemcies: npm install.
+9. Create a .env file with REACT_APP_API_UR.
+10. Start the frontend: npm start.
 
 ## 🔐 Security Features
 
