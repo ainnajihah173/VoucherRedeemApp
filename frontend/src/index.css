@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  background-color: #f4f7f6;
+}
+
+.home-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.voucher-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.voucher-card {
+  background: white;
+  transition: transform 0.2s;
+}
+
+.voucher-card:hover {
+  transform: translateY(-5px);
+}
+
+.loading, .error {
+  text-align: center;
+  padding: 50px;
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.error {
+  color: #e74c3c;
+}
+
+select, input {
+  border: 1px solid #ddd;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+select:focus, input:focus {
+  border-color: #3498db;
+}
